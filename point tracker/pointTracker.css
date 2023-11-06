@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 500px;
+    background-color: black;
+    border: 3px solid red;
+   }
+.input{
+    background: white;
+    color: black;
+    outline: none;
+    border: none;
+} 
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        margin: 10px;
+    }
+}
+.f{
+    font-size: 85px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.b{
+    border: 5px solid red;
+    /* border-radius: 550px; */
+}
+
+.circle-container {
+    width: 200px; 
+    height: 200px;
+    background-color: red; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 80px; 
+  }
+  .circle-container h1 {
+    font-size: 24px;
+    color: black; 
+  }
+  .trckingBtn{
+    padding: 10px 30px;
+    border: none;
+    font-size: 20px ;
+    font-weight: bold;
+    /* background-color: red; */
+    border-radius: 20px;
+  }
+  .lgBtn{
+    padding: 10px 25px;
+    border: none;
+    margin-right: 15px;
+    font-size: 20px ;
+    font-weight: bold;
+    /* background-color: red; */
+    border-radius: 20px;
+  }
+  .ltBtn{
+    padding: 10px 35px;
+    border: none;
+    /* margin-left: 15px; */
+    font-size: 20px ;
+    font-weight: bold;
+    /* background-color: red; */
+    border-radius: 20px;
+  }

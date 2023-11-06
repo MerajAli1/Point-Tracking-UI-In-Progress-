@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+#main-container {
+    background-color: black;
+    padding: 20px;
+ border-radius: 12px;
+    text-align: center;
+}
+
+#box {
+    width: 300px; /* Updated width */
+    height: 500px; /* Updated height */
+    background-color: #3498db;
+    overflow: hidden; /* Map ko box ke andar rakhega */
+}
+
+#button {
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color:black;
+    color: red;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#box iframe {
+    width: 100%; /* Map ko box ke width ke hisab se set karega */
+    height: 100%; /* Map ko box ke height ke hisab se set karega */
+}
+
+@media (max-width: 768px) {
+    #box {
+        width: 250px; /* Reduce width for mobile screens */
+        height: 400px; /* Reduce height for mobile screens */
+    }
+}
